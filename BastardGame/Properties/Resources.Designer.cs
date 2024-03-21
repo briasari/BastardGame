@@ -63,6 +63,16 @@ namespace BastardGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bp_angry {
+            get {
+                object obj = ResourceManager.GetObject("bp_angry", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bstd_bg {
             get {
                 object obj = ResourceManager.GetObject("bstd_bg", resourceCulture);
@@ -86,6 +96,56 @@ namespace BastardGame.Properties {
         internal static System.Drawing.Bitmap bstd_prologue1 {
             get {
                 object obj = ResourceManager.GetObject("bstd_prologue1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bstd_prologue10 {
+            get {
+                object obj = ResourceManager.GetObject("bstd_prologue10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bstd_prologue11 {
+            get {
+                object obj = ResourceManager.GetObject("bstd_prologue11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bstd_prologue12 {
+            get {
+                object obj = ResourceManager.GetObject("bstd_prologue12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bstd_prologue13 {
+            get {
+                object obj = ResourceManager.GetObject("bstd_prologue13", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bstd_prologue14 {
+            get {
+                object obj = ResourceManager.GetObject("bstd_prologue14", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +186,46 @@ namespace BastardGame.Properties {
         internal static System.Drawing.Bitmap bstd_prologue5 {
             get {
                 object obj = ResourceManager.GetObject("bstd_prologue5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bstd_prologue6 {
+            get {
+                object obj = ResourceManager.GetObject("bstd_prologue6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bstd_prologue7 {
+            get {
+                object obj = ResourceManager.GetObject("bstd_prologue7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bstd_prologue8 {
+            get {
+                object obj = ResourceManager.GetObject("bstd_prologue8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bstd_prologue9 {
+            get {
+                object obj = ResourceManager.GetObject("bstd_prologue9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

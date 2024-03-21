@@ -35,7 +35,10 @@
             this.textLabel = new System.Windows.Forms.Label();
             this.optionButton2 = new System.Windows.Forms.Button();
             this.optionButton1 = new System.Windows.Forms.Button();
+            this.charPictureBox = new System.Windows.Forms.PictureBox();
+            this.nameLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.charPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox
@@ -102,6 +105,29 @@
             this.optionButton1.UseVisualStyleBackColor = true;
             this.optionButton1.Click += new System.EventHandler(this.optionButton1_Click);
             // 
+            // charPictureBox
+            // 
+            this.charPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.charPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.charPictureBox.Location = new System.Drawing.Point(-14, 131);
+            this.charPictureBox.Name = "charPictureBox";
+            this.charPictureBox.Size = new System.Drawing.Size(178, 185);
+            this.charPictureBox.TabIndex = 6;
+            this.charPictureBox.TabStop = false;
+            this.charPictureBox.Visible = false;
+            // 
+            // nameLabel
+            // 
+            this.nameLabel.BackColor = System.Drawing.Color.Transparent;
+            this.nameLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameLabel.ForeColor = System.Drawing.Color.White;
+            this.nameLabel.Location = new System.Drawing.Point(19, 315);
+            this.nameLabel.Name = "nameLabel";
+            this.nameLabel.Size = new System.Drawing.Size(122, 27);
+            this.nameLabel.TabIndex = 7;
+            this.nameLabel.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -110,6 +136,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(537, 499);
+            this.Controls.Add(this.nameLabel);
+            this.Controls.Add(this.charPictureBox);
             this.Controls.Add(this.optionButton2);
             this.Controls.Add(this.optionButton1);
             this.Controls.Add(this.textLabel);
@@ -120,6 +148,7 @@
             this.Name = "Form1";
             this.Text = "Bastard";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.charPictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -132,6 +161,8 @@
         private System.Windows.Forms.Label textLabel;
         private System.Windows.Forms.Button optionButton2;
         private System.Windows.Forms.Button optionButton1;
+        private System.Windows.Forms.PictureBox charPictureBox;
+        private System.Windows.Forms.Label nameLabel;
     }
 }
 

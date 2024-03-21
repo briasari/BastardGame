@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bp_angry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beau_angry-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bstd_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\bstd.bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -126,6 +129,21 @@
   </data>
   <data name="bstd_prologue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\bstd prologue1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue10.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue11.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue12.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue13.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue14.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bstd_prologue2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bstd prologue2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -138,5 +156,17 @@
   </data>
   <data name="bstd_prologue5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bstd prologue5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue7.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue8.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue9.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

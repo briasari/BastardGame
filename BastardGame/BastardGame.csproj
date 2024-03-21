@@ -113,5 +113,38 @@
   <ItemGroup>
     <None Include="Resources\bstd prologue5.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beau angry.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beau_angry-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue7.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue9.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue10.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue11.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue12.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue13.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue14.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
