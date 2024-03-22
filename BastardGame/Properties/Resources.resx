@@ -145,8 +145,53 @@
   <data name="bstd_prologue14" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bstd prologue14.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bstd_prologue15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue15.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue16.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue17.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue18.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue19.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bstd_prologue2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bstd prologue2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue20.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue21.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue22.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue23.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue24.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue25.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue26.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue27.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue28.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bstd_prologue29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bstd prologue29.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bstd_prologue3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bstd prologue3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

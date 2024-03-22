@@ -74,7 +74,7 @@ namespace BastardGame
         private void optionButton2_Click(object sender, EventArgs e)
         {
 
-            prologue = 5;
+            prologue = 15;
             DisplayPage();
 
         }
@@ -106,6 +106,8 @@ namespace BastardGame
 
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue1;
                     Refresh();
+
+                    Thread.Sleep(1500);
 
                     break;
 
@@ -347,7 +349,7 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
+                    Thread.Sleep(2000);
 
                     break;
 
@@ -425,7 +427,7 @@ namespace BastardGame
                     Refresh();
 
                     textLabel.Text = "";
-                    string text16 = "BEAU PARK KNEES YOU IN THE STOMACH UNEXPECTEDLY, ALMOST KNOCKING THE AIR OUT OF YOU. ALL YOU CAN DO IS COUGH AS BEAU PARK GRABS YOU AND SHAKES YOU BY THE COLLAR.";
+                    string text16 = "BEAU PARK KNEES ME IN THE STOMACH UNEXPECTEDLY, KNOCKING THE AIR OUT OF ME. ALL I CAN DO IS COUGH AS HE GRABS ME AND SHAKES ME BY THE COLLAR.";
                     foreach (char c in text16)
                     {
                         textLabel.Text += c;
@@ -434,7 +436,7 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
+                    Thread.Sleep(1800);
                     Refresh();
 
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue11;
@@ -483,11 +485,14 @@ namespace BastardGame
                     Thread.Sleep(1000);
                     Refresh();
 
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue13;
                     charPictureBox.Visible = false;
                     nameLabel.Visible = false;
 
+                    Refresh();
+
                     textLabel.Text = "";
-                    string text172 = "BEAU PARK PUNCHES YOU IN THE CHEST. HE LOOKS EVEN ANGRIER.";
+                    string text172 = "BEAU PARK PUNCHES ME IN THE CHEST. HE LOOKS EVEN ANGRIER.";
                     foreach (char c in text172)
                     {
                         textLabel.Text += c;
@@ -499,7 +504,6 @@ namespace BastardGame
                     Thread.Sleep(1000);
                     Refresh();
 
-                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue13;
                     //charPictureBox.BackgroundImage = Properties.Resources.jin;
                     charPictureBox.Visible = true;
                     nameLabel.Text = "JIN SEON";
@@ -509,7 +513,7 @@ namespace BastardGame
 
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue14;
 
-                    Refresh();
+                    pictureBox.Refresh();
 
                     textLabel.Text = "";
                     string text173 = "UMPH... IT WASN'T M--... *COUGH*";
@@ -525,6 +529,195 @@ namespace BastardGame
 
                     break;
 
+
+                case 18:
+                    charPictureBox.Visible = false;
+                    nameLabel.Visible = false;
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue15;
+
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text18 = "BEAU PARK DOESN'T LISTEN.";
+                    foreach (char c in text18)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+
+                    }
+
+                    Thread.Sleep(1500);
+
+                    Refresh();
+
+                    charPictureBox.BackgroundImage = Properties.Resources.bp_angry;
+                    charPictureBox.Visible = true;
+                    nameLabel.Text = "BEAU PARK";
+                    nameLabel.Visible = true;
+
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text182 = "I KNOW IT WAS YOU, A$$HOLE!";
+                    foreach (char c in text182)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+
+                    }
+
+                    Thread.Sleep(1000);
+
+                    break;
+
+
+                case 19:
+
+                    charPictureBox.Visible = false;
+                    nameLabel.Visible = false;
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue16;
+
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text19 = "BEAU PARK SHOVES ME TO THE GROUND.";
+                    foreach (char c in text19)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+
+                    }
+
+                    Thread.Sleep(1500);
+
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue17;
+
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text192 = "HIS FOOT COMES STOMPING DOWN ON MY RIBS AS HE SPOUTS CURSES.";
+                    foreach (char c in text192)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+
+                    }
+
+                    Thread.Sleep(1000);
+
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue18;
+
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text193 = "I SCREAM OUT";
+                    foreach (char c in text193)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+
+                    }
+
+                    Thread.Sleep(1000);
+
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue19;
+
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text194 = "EVEN IF I TOLD HIM THE TRUTH, HIS INFERIRORITY COMPLEX WOULDN'T LISTEN.";
+                    foreach (char c in text194)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+
+                    }
+
+                    Thread.Sleep(750);
+
+                    break;
+
+
+                case 20:
+
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue20;
+
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text20 = ".....!!";
+                    foreach (char c in text20)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+
+                    }
+
+                    Thread.Sleep(750);
+
+                    textLabel.Text = "";
+                    string text202 = "MY HEART THUMPS ALARMINGLY IN MY CHEST";
+                    foreach (char c in text202)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+
+                    }
+
+                    Thread.Sleep(750);
+
+                    break;
+
+
+                case 21:
+
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue21;
+                    //charPictureBox.BackgroundImage = Properties.Resources.jin_urgent;
+                    charPictureBox.Visible = true;
+                    nameLabel.Text = "JIN SEON";
+
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text21 = "S-STOP.. *HUFF*";
+                    foreach (char c in text21)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+
+                    }
+
+                    Thread.Sleep(750);
+
+                    textLabel.Text = "";
+                    string text212 = "*HUFF* I-IT'S DANGEROUS...";
+                    foreach (char c in text212)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+
+                    }
+
+                    Thread.Sleep(750);
+
+                    break;
+
+
+                case 22:
+
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue22;
+
+                    break;
             }
 
         }

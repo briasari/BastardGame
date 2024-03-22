@@ -146,5 +146,50 @@
   <ItemGroup>
     <None Include="Resources\bstd prologue14.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue15.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue16.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue17.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue18.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue19.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue21.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue20.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue22.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue23.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue24.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue25.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue26.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue27.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue28.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bstd prologue29.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
