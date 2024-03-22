@@ -694,7 +694,7 @@ namespace BastardGame
                         Thread.Sleep(35);
                         textLabel.Refresh();
 
-                    }
+                    } 
 
                     Thread.Sleep(750);
 
