@@ -37,6 +37,7 @@
             this.optionButton1 = new System.Windows.Forms.Button();
             this.charPictureBox = new System.Windows.Forms.PictureBox();
             this.nameLabel = new System.Windows.Forms.Label();
+            this.proceedLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.charPictureBox)).BeginInit();
             this.SuspendLayout();
@@ -128,6 +129,17 @@
             this.nameLabel.TabIndex = 7;
             this.nameLabel.Visible = false;
             // 
+            // proceedLabel
+            // 
+            this.proceedLabel.AutoSize = true;
+            this.proceedLabel.BackColor = System.Drawing.Color.Transparent;
+            this.proceedLabel.Location = new System.Drawing.Point(21, 475);
+            this.proceedLabel.Name = "proceedLabel";
+            this.proceedLabel.Size = new System.Drawing.Size(119, 13);
+            this.proceedLabel.TabIndex = 8;
+            this.proceedLabel.Text = "CLICK TO PROCEED...";
+            this.proceedLabel.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -136,6 +148,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(537, 499);
+            this.Controls.Add(this.proceedLabel);
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.charPictureBox);
             this.Controls.Add(this.optionButton2);
@@ -150,6 +163,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.charPictureBox)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -163,6 +177,7 @@
         private System.Windows.Forms.Button optionButton1;
         private System.Windows.Forms.PictureBox charPictureBox;
         private System.Windows.Forms.Label nameLabel;
+        private System.Windows.Forms.Label proceedLabel;
     }
 }
 

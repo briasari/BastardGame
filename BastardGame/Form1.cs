@@ -40,12 +40,12 @@ namespace BastardGame
             startButton.Visible = false;
             exitButton.Visible = false;
             textLabel.Visible = true;
-
+            proceedLabel.Visible = true;
 
 
             if (page == 0)
             {
-                textLabel.Text = "Click to proceed...";
+                textLabel.Text = "[PROLOGUE]";
             }
 
         }
@@ -87,6 +87,8 @@ namespace BastardGame
             {
                case 1: //prologue; change image, add text
 
+                    proceedLabel.Visible = false;
+
                     pictureBox.BackgroundImage = null;
                     Refresh();
                     pictureBox.BackColor = Color.Black;
@@ -109,10 +111,13 @@ namespace BastardGame
 
                     Thread.Sleep(1500);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 2:
+                    proceedLabel.Visible = false;
 
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue2;
                     Refresh();
@@ -129,9 +134,13 @@ namespace BastardGame
 
                     Thread.Sleep(1000);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
                 case 3:
+
+                    proceedLabel.Visible = false;
 
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue3;
                     Refresh();
@@ -146,11 +155,15 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(0);
+                    Thread.Sleep(1000);
+
+                    proceedLabel.Visible = true;
 
                     break;
 
                 case 4:
+
+                    proceedLabel.Visible = false;
 
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue4;
                     Refresh();
@@ -167,9 +180,13 @@ namespace BastardGame
 
                     Thread.Sleep(1000);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
                 case 5:
+
+                    proceedLabel.Visible = false;
 
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue5;
                     Refresh();
@@ -186,10 +203,14 @@ namespace BastardGame
 
                     Thread.Sleep(1000);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 6:
+
+                    proceedLabel.Visible = false;
 
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue6;
                     charPictureBox.BackgroundImage = Properties.Resources.bp_angry;
@@ -211,10 +232,14 @@ namespace BastardGame
 
                     Thread.Sleep(1000);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 7:
+
+                    proceedLabel.Visible = false;
 
                     //charPictureBox.BackgroundImage= Properties.Resources.jin_confused
                     nameLabel.Text = "JIN SEON";
@@ -244,10 +269,14 @@ namespace BastardGame
 
                     Thread.Sleep(1500);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 8:
+
+                    proceedLabel.Visible = false;
 
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue7;
                     charPictureBox.Visible = false;
@@ -267,10 +296,14 @@ namespace BastardGame
 
                     Thread.Sleep(1000);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 9:
+
+                    proceedLabel.Visible = false;
 
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue8;
 
@@ -307,10 +340,14 @@ namespace BastardGame
 
                     Thread.Sleep(1000);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 11:
+
+                    proceedLabel.Visible = false;
 
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue6;
                     charPictureBox.BackgroundImage = Properties.Resources.bp_angry;
@@ -332,10 +369,14 @@ namespace BastardGame
 
                     Thread.Sleep(1000);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 12:
+
+                    proceedLabel.Visible = false;
 
                     Refresh();
 
@@ -351,10 +392,14 @@ namespace BastardGame
 
                     Thread.Sleep(2000);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 13:
+
+                    proceedLabel.Visible = false;
 
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue9;
                     charPictureBox.Visible = false;
@@ -374,10 +419,14 @@ namespace BastardGame
 
                     Thread.Sleep(1000);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 14:
+
+                    proceedLabel.Visible = false;
 
                     textLabel.Text = "";
                     string text14 = "I'M JUST A WEAK HERBIVORE AT THE BOTTOM OF THIS JUNGLE.";
@@ -391,14 +440,18 @@ namespace BastardGame
 
                     Thread.Sleep(1000);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 15:
 
+                    proceedLabel.Visible = false;
+
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue10;
                     //charPictureBox.BackgroundImage = Properties.Resources.jin;
-                    charPictureBox.Visible = true;
+                    //charPictureBox.Visible = true;
                     nameLabel.Text = "JIN SEON";
                     nameLabel.Visible = true;
 
@@ -416,12 +469,16 @@ namespace BastardGame
 
                     Thread.Sleep(1000);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 16:
 
-                    charPictureBox.Visible = false;
+                    proceedLabel.Visible = false;
+
+                    //charPictureBox.Visible = false;
                     nameLabel.Visible = false;
 
                     Refresh();
@@ -436,7 +493,7 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1800);
+                    Thread.Sleep(2000);
                     Refresh();
 
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue11;
@@ -459,14 +516,18 @@ namespace BastardGame
 
                     Thread.Sleep(1000);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 17:
 
+                    proceedLabel.Visible = false;
+
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue12;
                     //charPictureBox.BackgroundImage = Properties.Resources.jin;
-                    charPictureBox.Visible = true;
+                   // charPictureBox.Visible = true;
                     nameLabel.Text = "JIN SEON";
                     nameLabel.Visible = true;
 
@@ -501,11 +562,11 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
+                    Thread.Sleep(2000);
                     Refresh();
 
                     //charPictureBox.BackgroundImage = Properties.Resources.jin;
-                    charPictureBox.Visible = true;
+                    //charPictureBox.Visible = true;
                     nameLabel.Text = "JIN SEON";
                     nameLabel.Visible = true;
 
@@ -527,11 +588,16 @@ namespace BastardGame
 
                     Thread.Sleep(1000);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 18:
-                    charPictureBox.Visible = false;
+
+                    proceedLabel.Visible = false;
+
+                    //charPictureBox.Visible = false;
                     nameLabel.Visible = false;
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue15;
 
@@ -570,10 +636,14 @@ namespace BastardGame
 
                     Thread.Sleep(1000);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 19:
+
+                    proceedLabel.Visible = false;
 
                     charPictureBox.Visible = false;
                     nameLabel.Visible = false;
@@ -641,10 +711,14 @@ namespace BastardGame
 
                     Thread.Sleep(750);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 20:
+
+                    proceedLabel.Visible = false;
 
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue20;
 
@@ -674,14 +748,18 @@ namespace BastardGame
 
                     Thread.Sleep(750);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 21:
 
+                    proceedLabel.Visible = false;
+
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue21;
-                    //charPictureBox.BackgroundImage = Properties.Resources.jin_urgent;
-                    charPictureBox.Visible = true;
+                    ////charPictureBox.BackgroundImage = Properties.Resources.jin_urgent;
+                    //charPictureBox.Visible = true;
                     nameLabel.Text = "JIN SEON";
 
                     Refresh();
@@ -710,12 +788,86 @@ namespace BastardGame
 
                     Thread.Sleep(750);
 
+                    proceedLabel.Visible = true;
+
                     break;
 
 
                 case 22:
 
+                    proceedLabel.Visible = false;
+
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue22;
+                    nameLabel.Visible = false;
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text22 = "AS BEAU PARK LOOKS DOWN ON ME, MY VISION BLURS. HIS VOICE SOUNDS MUFFLED.";
+                    foreach (char c in text22)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+
+                    }
+
+                    Thread.Sleep(2000);
+
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue23;
+
+                    textLabel.Text = "";
+                    string text222 = "I... CAN HARDLY TELL UP FROM DOWN.";
+                    foreach (char c in text222)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(1500);
+
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue24;
+                    textLabel.Text = "...";
+                    Refresh();
+                    Thread.Sleep(1500);
+
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue25;
+                    Refresh();
+                    Thread.Sleep(1500);
+
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue26;
+                    nameLabel.Visible = true;
+                    nameLabel.Text = "???";
+                    textLabel.Text = "?!";
+                    Refresh();
+                    Thread.Sleep(1500);
+
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue26;
+                    nameLabel.Visible = false;
+
+                    textLabel.Text = "";
+                    string text223 = "AS MY EYELIDS GROW HEAVIER AND HEAVIER, SOMEONE ENTERS MY LINE OF SIGHT.";
+                    foreach (char c in text223)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(2000);
+
+                    textLabel.Text = "";
+                    string text224 = "AS MY EYELIDS GROW HEAVIER AND HEAVIER, SOMEONE ENTERS MY LINE OF SIGHT.";
+                    foreach (char c in text224)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(2000);
+
+                    proceedLabel.Visible = true;
 
                     break;
             }
