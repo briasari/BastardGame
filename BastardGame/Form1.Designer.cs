@@ -133,6 +133,7 @@
             // 
             this.proceedLabel.AutoSize = true;
             this.proceedLabel.BackColor = System.Drawing.Color.Transparent;
+            this.proceedLabel.ForeColor = System.Drawing.Color.White;
             this.proceedLabel.Location = new System.Drawing.Point(21, 475);
             this.proceedLabel.Name = "proceedLabel";
             this.proceedLabel.Size = new System.Drawing.Size(119, 13);

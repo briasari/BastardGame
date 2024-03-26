@@ -14,7 +14,6 @@ namespace BastardGame
 {
     public partial class Form1 : Form
     {
-
         int page;
         int prologue;
         Random randGen = new Random();
@@ -41,6 +40,7 @@ namespace BastardGame
             exitButton.Visible = false;
             textLabel.Visible = true;
             proceedLabel.Visible = true;
+            Refresh();
 
 
             if (page == 0)
@@ -74,7 +74,7 @@ namespace BastardGame
         private void optionButton2_Click(object sender, EventArgs e)
         {
 
-            prologue = 15;
+            prologue = 22;
             DisplayPage();
 
         }
@@ -109,7 +109,6 @@ namespace BastardGame
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue1;
                     Refresh();
 
-                    Thread.Sleep(1500);
 
                     proceedLabel.Visible = true;
 
@@ -132,7 +131,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
 
                     proceedLabel.Visible = true;
 
@@ -155,7 +153,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
 
                     proceedLabel.Visible = true;
 
@@ -178,7 +175,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
 
                     proceedLabel.Visible = true;
 
@@ -201,7 +197,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
 
                     proceedLabel.Visible = true;
 
@@ -230,7 +225,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
 
                     proceedLabel.Visible = true;
 
@@ -267,7 +261,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1500);
 
                     proceedLabel.Visible = true;
 
@@ -294,7 +287,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
 
                     proceedLabel.Visible = true;
 
@@ -319,7 +311,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
 
                     break;
 
@@ -338,7 +329,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
 
                     proceedLabel.Visible = true;
 
@@ -367,7 +357,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
 
                     proceedLabel.Visible = true;
 
@@ -390,7 +379,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(2000);
 
                     proceedLabel.Visible = true;
 
@@ -417,7 +405,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
 
                     proceedLabel.Visible = true;
 
@@ -438,7 +425,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
 
                     proceedLabel.Visible = true;
 
@@ -467,7 +453,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
 
                     proceedLabel.Visible = true;
 
@@ -514,7 +499,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
 
                     proceedLabel.Visible = true;
 
@@ -526,6 +510,7 @@ namespace BastardGame
                     proceedLabel.Visible = false;
 
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue12;
+                    charPictureBox.Visible = false;
                     //charPictureBox.BackgroundImage = Properties.Resources.jin;
                    // charPictureBox.Visible = true;
                     nameLabel.Text = "JIN SEON";
@@ -586,7 +571,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
 
                     proceedLabel.Visible = true;
 
@@ -634,7 +618,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(1000);
 
                     proceedLabel.Visible = true;
 
@@ -709,7 +692,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(750);
 
                     proceedLabel.Visible = true;
 
@@ -746,7 +728,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(750);
 
                     proceedLabel.Visible = true;
 
@@ -760,6 +741,7 @@ namespace BastardGame
                     pictureBox.BackgroundImage = Properties.Resources.bstd_prologue21;
                     ////charPictureBox.BackgroundImage = Properties.Resources.jin_urgent;
                     //charPictureBox.Visible = true;
+                    nameLabel.Visible = true;
                     nameLabel.Text = "JIN SEON";
 
                     Refresh();
@@ -786,7 +768,6 @@ namespace BastardGame
 
                     }
 
-                    Thread.Sleep(750);
 
                     proceedLabel.Visible = true;
 
@@ -842,8 +823,9 @@ namespace BastardGame
                     Refresh();
                     Thread.Sleep(1500);
 
-                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue26;
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue27;
                     nameLabel.Visible = false;
+                    Refresh();
 
                     textLabel.Text = "";
                     string text223 = "AS MY EYELIDS GROW HEAVIER AND HEAVIER, SOMEONE ENTERS MY LINE OF SIGHT.";
@@ -856,8 +838,12 @@ namespace BastardGame
 
                     Thread.Sleep(2000);
 
+                    nameLabel.Text = "???";
+                    nameLabel.Visible = true;
+                    Refresh();
+
                     textLabel.Text = "";
-                    string text224 = "AS MY EYELIDS GROW HEAVIER AND HEAVIER, SOMEONE ENTERS MY LINE OF SIGHT.";
+                    string text224 = "STOP IT!";
                     foreach (char c in text224)
                     {
                         textLabel.Text += c;
@@ -865,11 +851,71 @@ namespace BastardGame
                         textLabel.Refresh();
                     }
 
-                    Thread.Sleep(2000);
+                    Thread.Sleep(1500);
 
-                    proceedLabel.Visible = true;
+                    nameLabel.Visible = false;
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue28;
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text225 = "VAGUELY, I CAN MAKE OUT THE SOUND OF YELLING.";
+                    foreach (char c in text225)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_prologue29;
+
+                    Refresh();
+
+                    Thread.Sleep(1500);
+
+                    pictureBox.BackgroundImage = null;
+                    pictureBox.BackColor = Color.Black;
+
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text226 = "AND THEN THE WORLD GOES BLACK.";
+                    foreach (char c in text226)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(75);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(750);
+
+                    textLabel.Text = "";
+                    string text227 = "[PROLOGUE] END ; [MAIN STORY] START";
+                    foreach (char c in text227)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(75);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(1000);
+
+                    prologue = 100;
+                    page++;
+                    DisplayPage();
 
                     break;
+
+                    switch (page)
+                    {
+
+             case 1:
+
+
+
+                    break;
+
+                    }
+                        
             }
 
         }
