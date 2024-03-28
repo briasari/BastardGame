@@ -191,5 +191,56 @@
   <ItemGroup>
     <None Include="Resources\bstd prologue29.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 7.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 9.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 10.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 11.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 12.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 13.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 14.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 15.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 16.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 17.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

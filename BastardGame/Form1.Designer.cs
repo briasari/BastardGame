@@ -38,6 +38,7 @@
             this.charPictureBox = new System.Windows.Forms.PictureBox();
             this.nameLabel = new System.Windows.Forms.Label();
             this.proceedLabel = new System.Windows.Forms.Label();
+            this.proceedButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.charPictureBox)).BeginInit();
             this.SuspendLayout();
@@ -141,6 +142,16 @@
             this.proceedLabel.Text = "CLICK TO PROCEED...";
             this.proceedLabel.Visible = false;
             // 
+            // proceedButton
+            // 
+            this.proceedButton.Location = new System.Drawing.Point(480, 71);
+            this.proceedButton.Name = "proceedButton";
+            this.proceedButton.Size = new System.Drawing.Size(75, 23);
+            this.proceedButton.TabIndex = 9;
+            this.proceedButton.Text = "proceed";
+            this.proceedButton.UseVisualStyleBackColor = true;
+            this.proceedButton.Click += new System.EventHandler(this.proceedButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -149,6 +160,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(537, 499);
+            this.Controls.Add(this.proceedButton);
             this.Controls.Add(this.proceedLabel);
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.charPictureBox);
@@ -179,6 +191,7 @@
         private System.Windows.Forms.PictureBox charPictureBox;
         private System.Windows.Forms.Label nameLabel;
         private System.Windows.Forms.Label proceedLabel;
+        private System.Windows.Forms.Button proceedButton;
     }
 }
 

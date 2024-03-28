@@ -55,9 +55,17 @@ namespace BastardGame
             if (page == 0)
             {
                 prologue++;
+                DisplayPagePrologue();
+            }
+            else
+            {
+                page++;
+                DisplayPageMain();
             }
 
-            DisplayPage();
+           
+
+
         }
 
         private void optionButton1_Click(object sender, EventArgs e)
@@ -75,11 +83,11 @@ namespace BastardGame
         {
 
             prologue = 22;
-            DisplayPage();
+            DisplayPagePrologue();
 
         }
 
-        private void DisplayPage()
+        private void DisplayPagePrologue()
         {
             charPictureBox.Parent = pictureBox;
 
@@ -783,7 +791,7 @@ namespace BastardGame
                     Refresh();
 
                     textLabel.Text = "";
-                    string text22 = "AS BEAU PARK LOOKS DOWN ON ME, MY VISION BLURS. HIS VOICE SOUNDS MUFFLED.";
+                    string text22 = "AS BEAU PARK LOOKS DOWN AT ME, MY VISION BLURS. HIS VOICE SOUNDS MUFFLED.";
                     foreach (char c in text22)
                     {
                         textLabel.Text += c;
@@ -897,27 +905,132 @@ namespace BastardGame
                         textLabel.Refresh();
                     }
 
-                    Thread.Sleep(1000);
+                    Thread.Sleep(1500);
 
                     prologue = 100;
-                    page++;
-                    DisplayPage();
+
+                    proceedButton.Visible = true;
 
                     break;
 
-                    switch (page)
-                    {
-
-             case 1:
-
-
-
-                    break;
-
-                    }
-                        
             }
 
+        }
+
+        private void DisplayPageMain()
+        {
+            switch (page)
+            {
+                case 1:
+
+                    textLabel.Text = "...";
+                    pictureBox.BackgroundImage = Properties.Resources.bstd_homescreen;
+
+                    Refresh();
+
+                    Thread.Sleep(2500);
+
+                    proceedLabel.Visible = false;
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_1;
+                    pictureBox.Refresh();
+
+                    Thread.Sleep(3000);
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_2;
+                    pictureBox.Refresh();
+
+                    Thread.Sleep(1250);
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_3;
+                    pictureBox.Refresh();
+
+                    Thread.Sleep(1250);
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_4;
+                    pictureBox.Refresh();
+
+                    Thread.Sleep(1250);
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_5;
+                    pictureBox.Refresh();
+
+                    Thread.Sleep(1250);
+
+                    //rustling clothes noise
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_6;
+                    pictureBox.Refresh();
+
+                    textLabel.Text = "";
+                    string text1 = "...WHERE AM I?";
+                    foreach (char c in text1)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(100);
+                        textLabel.Refresh();
+
+                    }
+
+                    Thread.Sleep(500);
+
+                    proceedLabel.Visible = true;
+
+                    break;
+
+                case 2:
+
+                    proceedLabel.Visible = false;
+
+                    nameLabel.Text = "???";
+                    nameLabel.Visible = true;
+
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text2 = "OH, YOU'RE AWAKE!";
+                    foreach (char c in text2)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+
+                    }
+
+                    Refresh();
+
+                    Thread.Sleep(750);
+
+                    nameLabel.Text = "JIN SEON";
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text1two = "!?";
+                    foreach (char c in text1two)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+
+                    }
+
+                    Refresh();
+                    Thread.Sleep(750);
+
+
+
+                    break;
+            }
+        }
+
+        private void proceedButton_Click(object sender, EventArgs e)
+        {
+            page = 0;
+
+            if (page == 0)
+            {
+                page++;
+                DisplayPageMain();
+            }
         }
     }
 }
