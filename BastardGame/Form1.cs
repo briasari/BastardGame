@@ -1018,7 +1018,7 @@ namespace BastardGame
 
 
 
-                    break;
+                    break; 
             }
         }
 
