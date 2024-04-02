@@ -974,6 +974,7 @@ namespace BastardGame
                     Thread.Sleep(500);
 
                     proceedLabel.Visible = true;
+                    Refresh();
 
                     break;
 
@@ -983,6 +984,8 @@ namespace BastardGame
 
                     nameLabel.Text = "???";
                     nameLabel.Visible = true;
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_7;
 
                     Refresh();
 
@@ -1016,9 +1019,291 @@ namespace BastardGame
                     Refresh();
                     Thread.Sleep(750);
 
+                    proceedLabel.Visible = true;
+                    Refresh();
 
+                    break;
 
-                    break; 
+                case 3:
+
+                    proceedLabel.Visible = false;
+
+                    nameLabel.Text = "MR. PARK";
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_8;
+                    charPictureBox.BackgroundImage = Properties.Resources.gymteach;
+                    charPictureBox.Visible = true;
+                    pictureBox.Refresh();
+
+                    textLabel.Text = "";
+                    string text3 = "MAN~ THAT WAS REALLY CLOSE.";
+                    foreach (char c in text3)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(100);
+                        textLabel.Refresh();
+
+                    }
+
+                    Thread.Sleep(1000);
+
+                    textLabel.Text = "";
+                    string text3two = "WHAT THE HECK HAPPENED?";
+                    foreach (char c in text3two)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(100);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(500);
+
+                    proceedLabel.Visible = true;
+                    Refresh();
+
+                    break;
+
+                case 4:
+
+                    charPictureBox.Visible = false;
+                    proceedLabel.Visible = false;
+
+                    nameLabel.Text = "JIN SEON";
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_9;
+                    pictureBox.Refresh();
+
+                    textLabel.Text = "";
+                    string text4 = "WHAT?";
+                    foreach (char c in text4)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(100);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(750);
+
+                    textLabel.Text = "......";
+                    nameLabel.Visible = false;
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_10;
+                    pictureBox.Refresh();
+
+                    Thread.Sleep(750);
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_11;
+                    pictureBox.Refresh();
+
+                    Thread.Sleep(750);
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_12;
+                    pictureBox.Refresh();
+
+                    Thread.Sleep(750);
+
+                    proceedLabel.Visible= true;
+                    Refresh();
+
+                    break;
+
+                case 5:
+
+                    proceedLabel.Visible = false;
+                    Refresh();
+
+                    nameLabel.Text = "MR. PARK";
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_13;
+                    charPictureBox.BackgroundImage = Properties.Resources.gymteach;
+                    charPictureBox.Visible = true;
+                    pictureBox.Refresh();
+
+                    textLabel.Text = "SHE CALLED THE AMBULANCE AND SAVED YOU.";
+                    string text5 = "";
+                    foreach (char c in text5)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(100);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(750);
+
+                    textLabel.Text = "SAY HI, THIS IS OUR NEW TRANSFER STUDENT.";
+                    string text5two = "";
+                    foreach (char c in text5two)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(100);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(750);
+
+                    proceedLabel.Visible = true;
+                    Refresh();
+
+                    break;
+
+                case 6:
+
+                    proceedLabel.Visible = false;
+                    Refresh();
+
+                    nameLabel.Text = "???";
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_14;
+                    charPictureBox.Visible = false;
+                    pictureBox.Refresh();
+
+                    textLabel.Text = "HI THERE.";
+                    string text6 = "";
+                    foreach (char c in text6)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(100);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(750);
+
+                    textLabel.Text = "I'M KYUN YOON, BUT YOU CAN CALL ME YOUR LIFE LIFE SAVIOR";
+                    string text6two = "";
+                    foreach (char c in text6two)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(100);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(1500);
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_15;
+                    nameLabel.Text = "JIN SEON";
+                    textLabel.Text = "....";
+
+                    Thread.Sleep(750);
+
+                    nameLabel.Text = "KYUN YOON";
+                    nameLabel.Visible = true;
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_16;
+                    charPictureBox.BackgroundImage= Properties.Resources.ky_smile;
+                    charPictureBox.Visible = true;
+                    Refresh();
+
+                    textLabel.Text = "I EXPECT YOU TO REPAY ME FOR THIS.";
+                    string text6three = "";
+                    foreach (char c in text6three)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(100);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(750);
+
+                    nameLabel.Text = "JIN SEON";
+                    nameLabel.Visible = true;
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_17;
+                    charPictureBox.Visible = false;
+                    Refresh();
+
+                    textLabel.Text = "...KYUN.....YOON...";
+                    string text6four = "";
+                    foreach (char c in text6four)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(100);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(750);
+
+                    proceedLabel.Visible = true;
+                    Refresh();
+
+                    break;
+
+                case 7:
+
+                    proceedLabel.Visible = false;
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_18;
+                    charPictureBox.Visible = false;
+                    nameLabel.Visible = false;
+
+                    textLabel.Text = "MR. PARK'S PHONE BUZZED IN HIS POCKET.";
+                    string text7 = "";
+                    foreach (char c in text7)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(100);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(750);
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_19;
+                    nameLabel.Text = "MR PARK";
+                    nameLabel.Visible = true;
+                    charPictureBox.BackgroundImage = Properties.Resources.gymteach;
+                    charPictureBox.Visible = true;
+                    Refresh();
+
+                    textLabel.Text = "AH. ONE SEC, PHONE CALL.";
+                    string text7two = "";
+                    foreach (char c in text7two)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(100);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(750);
+
+                    proceedLabel.Visible = true;
+                    Refresh();
+
+                    break;
+
+                case 8:
+
+                    proceedLabel.Visible = false;
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_20;
+                    nameLabel.Visible = false;
+                    charPictureBox.Visible = false;
+                    Refresh();
+
+                    textLabel.Text = "AS MR. PARK ANSWERED HIS PHONE, KYUN YOON APPROACHED ME.";
+                    string text8 = "";
+                    foreach (char c in text8)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(100);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(1000);
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_21;
+                    nameLabel.Visible = true;
+                    nameLabel.Text = "KYUN YOON";
+                    charPictureBox.BackgroundImage = Properties.Resources.ky_smile;
+                    charPictureBox.Visible = true;
+                    Refresh();
+
+                    textLabel.Text = "I DIDN'T TELL HIM WHAT REALLY HAPPENED... IT'S PROBABLY BETTER LIKE THAT, HUH?";
+                    string text8two = "";
+                    foreach (char c in text8two)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(100);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(2000);
+
+                    proceedLabel.Visible = true;
+                    Refresh();
+
+                    break;
+
             }
         }
 

@@ -242,5 +242,29 @@
   <ItemGroup>
     <None Include="Resources\chap1 17.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gym_teacher-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ky_angry-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ky_smile-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 18.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 19.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 20.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 21.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 22.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
