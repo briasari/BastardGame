@@ -266,5 +266,38 @@
   <ItemGroup>
     <None Include="Resources\chap1 22.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 23.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 24.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 25.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 26.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 27.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 28.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 29.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 30.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 31.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 32.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap1 33.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

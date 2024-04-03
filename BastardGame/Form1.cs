@@ -16,6 +16,8 @@ namespace BastardGame
     {
         int page;
         int prologue;
+        int opt1;
+        int opt2;
         Random randGen = new Random();
 
 
@@ -71,19 +73,25 @@ namespace BastardGame
         private void optionButton1_Click(object sender, EventArgs e)
         {
 
-
-            if (page == 1)
+            if (page == 13)
             {
-                page = 5;
+                opt1++;
+                page = 14;
+                DisplayPageMain();
             }
-            //DisplayPage();
+            
         }
 
         private void optionButton2_Click(object sender, EventArgs e)
         {
-
-            prologue = 22;
-            DisplayPagePrologue();
+            
+            if (page == 13)
+            {
+                opt2++;
+                page = 14;
+                DisplayPageMain();
+            }
+            
 
         }
 
@@ -919,9 +927,14 @@ namespace BastardGame
 
         private void DisplayPageMain()
         {
+
+            charPictureBox.Parent = pictureBox;
+
             switch (page)
             {
                 case 1:
+
+                    proceedLabel.Visible = false;
 
                     textLabel.Text = "...";
                     pictureBox.BackgroundImage = Properties.Resources.bstd_homescreen;
@@ -999,9 +1012,9 @@ namespace BastardGame
 
                     }
 
-                    Refresh();
+                    Thread.Sleep(1250);
 
-                    Thread.Sleep(750);
+                    Refresh();
 
                     nameLabel.Text = "JIN SEON";
                     Refresh();
@@ -1032,14 +1045,14 @@ namespace BastardGame
                     pictureBox.BackgroundImage = Properties.Resources.chap1_8;
                     charPictureBox.BackgroundImage = Properties.Resources.gymteach;
                     charPictureBox.Visible = true;
-                    pictureBox.Refresh();
+                    Refresh();
 
                     textLabel.Text = "";
                     string text3 = "MAN~ THAT WAS REALLY CLOSE.";
                     foreach (char c in text3)
                     {
                         textLabel.Text += c;
-                        Thread.Sleep(100);
+                        Thread.Sleep(35);
                         textLabel.Refresh();
 
                     }
@@ -1051,11 +1064,11 @@ namespace BastardGame
                     foreach (char c in text3two)
                     {
                         textLabel.Text += c;
-                        Thread.Sleep(100);
+                        Thread.Sleep(35);
                         textLabel.Refresh();
                     }
 
-                    Thread.Sleep(500);
+                    Thread.Sleep(1000);
 
                     proceedLabel.Visible = true;
                     Refresh();
@@ -1068,15 +1081,16 @@ namespace BastardGame
                     proceedLabel.Visible = false;
 
                     nameLabel.Text = "JIN SEON";
+                    nameLabel.Visible = true;
                     pictureBox.BackgroundImage = Properties.Resources.chap1_9;
-                    pictureBox.Refresh();
+                    Refresh();
 
                     textLabel.Text = "";
                     string text4 = "WHAT?";
                     foreach (char c in text4)
                     {
                         textLabel.Text += c;
-                        Thread.Sleep(100);
+                        Thread.Sleep(75);
                         textLabel.Refresh();
                     }
 
@@ -1085,19 +1099,19 @@ namespace BastardGame
                     textLabel.Text = "......";
                     nameLabel.Visible = false;
                     pictureBox.BackgroundImage = Properties.Resources.chap1_10;
-                    pictureBox.Refresh();
+                    Refresh();
 
-                    Thread.Sleep(750);
+                    Thread.Sleep(1250);
 
                     pictureBox.BackgroundImage = Properties.Resources.chap1_11;
                     pictureBox.Refresh();
 
-                    Thread.Sleep(750);
+                    Thread.Sleep(1250);
 
                     pictureBox.BackgroundImage = Properties.Resources.chap1_12;
                     pictureBox.Refresh();
 
-                    Thread.Sleep(750);
+                    Thread.Sleep(1250);
 
                     proceedLabel.Visible= true;
                     Refresh();
@@ -1107,31 +1121,33 @@ namespace BastardGame
                 case 5:
 
                     proceedLabel.Visible = false;
-                    Refresh();
 
                     nameLabel.Text = "MR. PARK";
+                    nameLabel.Visible = true;
                     pictureBox.BackgroundImage = Properties.Resources.chap1_13;
                     charPictureBox.BackgroundImage = Properties.Resources.gymteach;
                     charPictureBox.Visible = true;
-                    pictureBox.Refresh();
+                    Refresh();
 
-                    textLabel.Text = "SHE CALLED THE AMBULANCE AND SAVED YOU.";
-                    string text5 = "";
+                    textLabel.Text = "";
+                    string text5 = "SHE CALLED THE AMBULANCE AND SAVED YOU.";
                     foreach (char c in text5)
                     {
                         textLabel.Text += c;
-                        Thread.Sleep(100);
+                        Thread.Sleep(35);
                         textLabel.Refresh();
                     }
 
+                    Refresh();
+
                     Thread.Sleep(750);
 
-                    textLabel.Text = "SAY HI, THIS IS OUR NEW TRANSFER STUDENT.";
-                    string text5two = "";
+                    textLabel.Text = "";
+                    string text5two = "SAY HI, THIS IS OUR NEW TRANSFER STUDENT.";
                     foreach (char c in text5two)
                     {
                         textLabel.Text += c;
-                        Thread.Sleep(100);
+                        Thread.Sleep(35);
                         textLabel.Refresh();
                     }
 
@@ -1150,35 +1166,35 @@ namespace BastardGame
                     nameLabel.Text = "???";
                     pictureBox.BackgroundImage = Properties.Resources.chap1_14;
                     charPictureBox.Visible = false;
-                    pictureBox.Refresh();
+                    Refresh();
 
-                    textLabel.Text = "HI THERE.";
-                    string text6 = "";
+                    textLabel.Text = "";
+                    string text6 = "HI THERE.";
                     foreach (char c in text6)
                     {
                         textLabel.Text += c;
-                        Thread.Sleep(100);
+                        Thread.Sleep(35);
                         textLabel.Refresh();
                     }
 
-                    Thread.Sleep(750);
+                    Thread.Sleep(1250);
 
-                    textLabel.Text = "I'M KYUN YOON, BUT YOU CAN CALL ME YOUR LIFE LIFE SAVIOR";
-                    string text6two = "";
+                    textLabel.Text = "";
+                    string text6two = "I'M KYUN YOON, BUT YOU CAN CALL ME YOUR LIFE LIFE SAVIOR";
                     foreach (char c in text6two)
                     {
                         textLabel.Text += c;
-                        Thread.Sleep(100);
+                        Thread.Sleep(35);
                         textLabel.Refresh();
                     }
 
-                    Thread.Sleep(1500);
+                    Thread.Sleep(1250);
 
                     pictureBox.BackgroundImage = Properties.Resources.chap1_15;
                     nameLabel.Text = "JIN SEON";
                     textLabel.Text = "....";
 
-                    Thread.Sleep(750);
+                    Thread.Sleep(1000);
 
                     nameLabel.Text = "KYUN YOON";
                     nameLabel.Visible = true;
@@ -1187,16 +1203,16 @@ namespace BastardGame
                     charPictureBox.Visible = true;
                     Refresh();
 
-                    textLabel.Text = "I EXPECT YOU TO REPAY ME FOR THIS.";
-                    string text6three = "";
+                    textLabel.Text = "";
+                    string text6three = "I EXPECT YOU TO REPAY ME FOR THIS.";
                     foreach (char c in text6three)
                     {
                         textLabel.Text += c;
-                        Thread.Sleep(100);
+                        Thread.Sleep(35);
                         textLabel.Refresh();
                     }
 
-                    Thread.Sleep(750);
+                    Thread.Sleep(1500);
 
                     nameLabel.Text = "JIN SEON";
                     nameLabel.Visible = true;
@@ -1204,12 +1220,12 @@ namespace BastardGame
                     charPictureBox.Visible = false;
                     Refresh();
 
-                    textLabel.Text = "...KYUN.....YOON...";
-                    string text6four = "";
+                    textLabel.Text = "";
+                    string text6four = "...KYUN.....YOON...";
                     foreach (char c in text6four)
                     {
                         textLabel.Text += c;
-                        Thread.Sleep(100);
+                        Thread.Sleep(120);
                         textLabel.Refresh();
                     }
 
@@ -1226,13 +1242,14 @@ namespace BastardGame
                     pictureBox.BackgroundImage = Properties.Resources.chap1_18;
                     charPictureBox.Visible = false;
                     nameLabel.Visible = false;
+                    Refresh();
 
-                    textLabel.Text = "MR. PARK'S PHONE BUZZED IN HIS POCKET.";
-                    string text7 = "";
+                    textLabel.Text = "";
+                    string text7 = "MR. PARK'S PHONE BUZZED IN HIS POCKET.";
                     foreach (char c in text7)
                     {
                         textLabel.Text += c;
-                        Thread.Sleep(100);
+                        Thread.Sleep(35);
                         textLabel.Refresh();
                     }
 
@@ -1245,12 +1262,12 @@ namespace BastardGame
                     charPictureBox.Visible = true;
                     Refresh();
 
-                    textLabel.Text = "AH. ONE SEC, PHONE CALL.";
-                    string text7two = "";
+                    textLabel.Text = "";
+                    string text7two = "AH. ONE SEC, PHONE CALL.";
                     foreach (char c in text7two)
                     {
                         textLabel.Text += c;
-                        Thread.Sleep(100);
+                        Thread.Sleep(35);
                         textLabel.Refresh();
                     }
 
@@ -1270,12 +1287,12 @@ namespace BastardGame
                     charPictureBox.Visible = false;
                     Refresh();
 
-                    textLabel.Text = "AS MR. PARK ANSWERED HIS PHONE, KYUN YOON APPROACHED ME.";
-                    string text8 = "";
+                    textLabel.Text = "";
+                    string text8 = "AS MR. PARK ANSWERED HIS PHONE, KYUN YOON APPROACHED ME.";
                     foreach (char c in text8)
                     {
                         textLabel.Text += c;
-                        Thread.Sleep(100);
+                        Thread.Sleep(35);
                         textLabel.Refresh();
                     }
 
@@ -1288,22 +1305,310 @@ namespace BastardGame
                     charPictureBox.Visible = true;
                     Refresh();
 
-                    textLabel.Text = "I DIDN'T TELL HIM WHAT REALLY HAPPENED... IT'S PROBABLY BETTER LIKE THAT, HUH?";
-                    string text8two = "";
+                    textLabel.Text = "";
+                    string text8two = "I DIDN'T TELL HIM WHAT REALLY HAPPENED... IT'S PROBABLY BETTER LIKE THAT, HUH?";
                     foreach (char c in text8two)
                     {
                         textLabel.Text += c;
-                        Thread.Sleep(100);
+                        Thread.Sleep(35);
                         textLabel.Refresh();
                     }
 
-                    Thread.Sleep(2000);
+                    Thread.Sleep(1500);
 
                     proceedLabel.Visible = true;
                     Refresh();
 
                     break;
 
+                case 9:
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_22;
+                    proceedLabel.Visible = false;
+                    charPictureBox.Visible = false;
+                    nameLabel.Visible = false;
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text9 = "I NODDED MY HEAD.";
+                    foreach (char c in text9)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(750);
+
+                    proceedLabel.Visible = true;
+                    Refresh();
+
+                    break;
+
+                case 10:
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_23;
+                    proceedLabel.Visible = false;
+                    charPictureBox.Visible = false;
+                    nameLabel.Visible = false;
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text10 = "MR. PARK HUNG UP HIS PHONE AND TURNED BACK TO US.";
+                    foreach (char c in text10)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(1250);
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_24;
+                    charPictureBox.BackgroundImage = Properties.Resources.gymteach;
+                    charPictureBox.Visible = true;
+                    nameLabel.Text = "MR. PARK";
+                    nameLabel.Visible = true;
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text10two = "AH, JIN. YOUR ";
+                    foreach (char c in text10two)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+
+                    textLabel.ForeColor = Color.Maroon;
+                    textLabel.Refresh();
+
+                    string text10three = "FATHER ";
+                    foreach (char c in text10three)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(200);
+                        textLabel.Refresh();
+                    }
+
+                    textLabel.ForeColor = Color.White;
+                    textLabel.Refresh();
+
+                    string text10four = "SAYS HE'S ALMOST HERE. I'LL STAY HERE UNTIL HE ARRIVES";
+                    foreach (char c in text10four)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+                 
+                    proceedLabel.Visible = true;
+                    Refresh();
+
+                    break;
+
+                case 11:
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_25;
+                    textLabel.Text = "...";
+                    proceedLabel.Visible = false;
+                    charPictureBox.Visible = false;
+                    nameLabel.Visible = false;
+                    //play heartbeat sound
+                    //wait 2000 milis
+                    nameLabel.Visible = true;
+                    nameLabel.Text = "JIN SEON";
+
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text11 = "WHO DID YOU SAY... IS COMING?";
+                    foreach (char c in text11)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(125);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(1250);
+                    proceedLabel.Visible = true;
+
+                    break;
+
+                case 12:
+
+                    proceedLabel.Visible = false;
+
+                    nameLabel.Text = "MR. PARK";
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_26;
+                    charPictureBox.BackgroundImage = Properties.Resources.gymteach;
+                    charPictureBox.Visible = true;
+
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text12 = "YOUR FATHER, HE SAID HE'S ALMOST HERE.";
+                    foreach (char c in text12)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(750);
+
+                    proceedLabel.Visible = false;
+                    Refresh();
+
+                    break;
+
+                case 13:
+
+                    proceedLabel.Visible = false;
+                    charPictureBox.Visible = false;
+                    nameLabel.Visible = false;
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_27;
+
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text13 = "I TURNED TO KYUN YOON...";
+                    foreach (char c in text13)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(100);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(1750);
+
+                    optionButton1.Text = "COLDLY TELL KYUN YOON TO LEAVE";
+                    optionButton1.Visible = true;
+                    optionButton2.Text = "ANGRILY KICK KYUN YOON OUT";
+                    optionButton2.Visible = true;
+
+                    Refresh();
+
+                    break;
+
+                case 14:
+
+                    proceedLabel.Visible = false;
+                    nameLabel.Visible = true;
+                    nameLabel.Text = "JIN SEON";
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_28;
+
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text14 = "GET OUT.";
+                    foreach (char c in text14)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(750);
+
+                    proceedLabel.Visible = true;
+
+                    Refresh();
+
+                    break;
+
+                case 15:
+
+                    proceedLabel.Visible = false;
+                    nameLabel.Visible = false;
+                    nameLabel.Text = "KYUN YOON";
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_29;
+                    textLabel.Text = "...";
+
+                    Refresh();
+
+                    Thread.Sleep(1750);
+
+                    charPictureBox.BackgroundImage = Properties.Resources.ky_angry;
+                    charPictureBox.Visible = true;
+                    nameLabel.Visible = true;
+                    pictureBox.BackgroundImage = Properties.Resources.chap1_30;
+
+                    textLabel.Text = "";
+                    string text15 = "...!? HUH?";
+                    foreach (char c in text15)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+
+                    Thread.Sleep(750);
+
+                    proceedLabel.Visible = true;
+
+                    Refresh();
+
+                    break;
+
+                case 16:
+
+                    proceedLabel.Visible = false;
+
+                    Refresh();
+
+                    if (opt1 == 1)
+                    {
+                        charPictureBox.BackgroundImage = Properties.Resources.ky_angry;
+                        charPictureBox.Visible = false;
+                        nameLabel.Text = "JIN SEON";
+                        nameLabel.Visible = true;
+                        pictureBox.BackgroundImage = Properties.Resources.chap1_31;
+
+                        Refresh();
+
+                        textLabel.Text = "";
+                        string text16 = "YOU'RE THE TRANSFER STUDENT... KYUN YOON, RIGHT?... I SAID GET OUT.";
+                        foreach (char c in text16)
+                        {
+                            textLabel.Text += c;
+                            Thread.Sleep(35);
+                            textLabel.Refresh();
+                        }
+
+                        Thread.Sleep(1250);
+
+                        page = 17;
+                        DisplayPageMain();
+
+                    }
+
+                    if (opt2 == 1)
+                    {
+
+                        page = 17;
+                        DisplayPageMain();
+
+                    }
+
+                    Refresh();
+
+                    break;
+
+                case 17:
+
+                    proceedLabel.Visible = false;
+
+                    Refresh();
+
+
+
+                    Thread.Sleep(750);
+
+                    proceedLabel.Visible = true;
+
+
+
+                    break;
             }
         }
 
@@ -1316,6 +1621,12 @@ namespace BastardGame
                 page++;
                 DisplayPageMain();
             }
+        }
+
+        private void skipButton_Click(object sender, EventArgs e)
+        {
+            page = 9;
+            DisplayPageMain();
         }
     }
 }

@@ -257,10 +257,43 @@
     <value>..\Resources\chap1 21.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="chap1_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chap1 23.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chap1_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chap1 22.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chap1_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chap1 24.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chap1_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chap1 25.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chap1_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chap1 26.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chap1_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chap1 27.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chap1_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chap1 28.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chap1_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chap1 29.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="chap1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chap1 3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chap1_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chap1 30.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chap1_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chap1 31.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chap1_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chap1 32.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chap1_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chap1 33.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="chap1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chap1 4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

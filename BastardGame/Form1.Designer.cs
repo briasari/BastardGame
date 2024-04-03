@@ -39,14 +39,16 @@
             this.nameLabel = new System.Windows.Forms.Label();
             this.proceedLabel = new System.Windows.Forms.Label();
             this.proceedButton = new System.Windows.Forms.Button();
+            this.skipButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.charPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox
             // 
+            this.pictureBox.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox.BackgroundImage")));
-            this.pictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox.Location = new System.Drawing.Point(19, 13);
             this.pictureBox.Name = "pictureBox";
@@ -95,6 +97,7 @@
             this.optionButton2.TabIndex = 5;
             this.optionButton2.Text = "opt2";
             this.optionButton2.UseVisualStyleBackColor = true;
+            this.optionButton2.Visible = false;
             this.optionButton2.Click += new System.EventHandler(this.optionButton2_Click);
             // 
             // optionButton1
@@ -105,12 +108,13 @@
             this.optionButton1.TabIndex = 4;
             this.optionButton1.Text = "opt1";
             this.optionButton1.UseVisualStyleBackColor = true;
+            this.optionButton1.Visible = false;
             this.optionButton1.Click += new System.EventHandler(this.optionButton1_Click);
             // 
             // charPictureBox
             // 
             this.charPictureBox.BackColor = System.Drawing.Color.Transparent;
-            this.charPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.charPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.charPictureBox.Location = new System.Drawing.Point(-14, 131);
             this.charPictureBox.Name = "charPictureBox";
             this.charPictureBox.Size = new System.Drawing.Size(178, 185);
@@ -152,6 +156,16 @@
             this.proceedButton.UseVisualStyleBackColor = true;
             this.proceedButton.Click += new System.EventHandler(this.proceedButton_Click);
             // 
+            // skipButton
+            // 
+            this.skipButton.Location = new System.Drawing.Point(480, 100);
+            this.skipButton.Name = "skipButton";
+            this.skipButton.Size = new System.Drawing.Size(75, 23);
+            this.skipButton.TabIndex = 10;
+            this.skipButton.Text = "skip";
+            this.skipButton.UseVisualStyleBackColor = true;
+            this.skipButton.Click += new System.EventHandler(this.skipButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -160,6 +174,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(537, 499);
+            this.Controls.Add(this.skipButton);
             this.Controls.Add(this.proceedButton);
             this.Controls.Add(this.proceedLabel);
             this.Controls.Add(this.nameLabel);
@@ -192,6 +207,7 @@
         private System.Windows.Forms.Label nameLabel;
         private System.Windows.Forms.Label proceedLabel;
         private System.Windows.Forms.Button proceedButton;
+        private System.Windows.Forms.Button skipButton;
     }
 }
 
