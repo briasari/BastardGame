@@ -1341,7 +1341,7 @@ namespace BastardGame
                     Thread.Sleep(750);
 
                     proceedLabel.Visible = true;
-                    Refresh();
+
 
                     break;
 
@@ -1425,11 +1425,11 @@ namespace BastardGame
                     foreach (char c in text11)
                     {
                         textLabel.Text += c;
-                        Thread.Sleep(125);
+                        Thread.Sleep(100);
                         textLabel.Refresh();
                     }
 
-                    Thread.Sleep(1250);
+                    Thread.Sleep(750);
                     proceedLabel.Visible = true;
 
                     break;
@@ -1456,7 +1456,7 @@ namespace BastardGame
 
                     Thread.Sleep(750);
 
-                    proceedLabel.Visible = false;
+                    proceedLabel.Visible = true;
                     Refresh();
 
                     break;
@@ -1479,7 +1479,7 @@ namespace BastardGame
                         textLabel.Refresh();
                     }
 
-                    Thread.Sleep(1750);
+                    Thread.Sleep(750);
 
                     optionButton1.Text = "COLDLY TELL KYUN YOON TO LEAVE";
                     optionButton1.Visible = true;
@@ -1491,6 +1491,9 @@ namespace BastardGame
                     break;
 
                 case 14:
+
+                    optionButton1.Visible = false;
+                    optionButton2.Visible = false;
 
                     proceedLabel.Visible = false;
                     nameLabel.Visible = true;
@@ -1526,12 +1529,14 @@ namespace BastardGame
 
                     Refresh();
 
-                    Thread.Sleep(1750);
+                    Thread.Sleep(1250);
 
                     charPictureBox.BackgroundImage = Properties.Resources.ky_angry;
                     charPictureBox.Visible = true;
                     nameLabel.Visible = true;
                     pictureBox.BackgroundImage = Properties.Resources.chap1_30;
+
+                    Refresh();
 
                     textLabel.Text = "";
                     string text15 = "...!? HUH?";
@@ -1602,11 +1607,13 @@ namespace BastardGame
 
 
 
+
+
                     Thread.Sleep(750);
 
                     proceedLabel.Visible = true;
 
-
+                    Refresh();
 
                     break;
             }
@@ -1625,7 +1632,7 @@ namespace BastardGame
 
         private void skipButton_Click(object sender, EventArgs e)
         {
-            page = 9;
+            page = 13;
             DisplayPageMain();
         }
     }

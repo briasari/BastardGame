@@ -91,9 +91,9 @@
             // 
             // optionButton2
             // 
-            this.optionButton2.Location = new System.Drawing.Point(480, 42);
+            this.optionButton2.Location = new System.Drawing.Point(268, 435);
             this.optionButton2.Name = "optionButton2";
-            this.optionButton2.Size = new System.Drawing.Size(75, 23);
+            this.optionButton2.Size = new System.Drawing.Size(173, 52);
             this.optionButton2.TabIndex = 5;
             this.optionButton2.Text = "opt2";
             this.optionButton2.UseVisualStyleBackColor = true;
@@ -102,9 +102,9 @@
             // 
             // optionButton1
             // 
-            this.optionButton1.Location = new System.Drawing.Point(480, 12);
+            this.optionButton1.Location = new System.Drawing.Point(81, 435);
             this.optionButton1.Name = "optionButton1";
-            this.optionButton1.Size = new System.Drawing.Size(75, 23);
+            this.optionButton1.Size = new System.Drawing.Size(173, 52);
             this.optionButton1.TabIndex = 4;
             this.optionButton1.Text = "opt1";
             this.optionButton1.UseVisualStyleBackColor = true;
@@ -174,13 +174,13 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(537, 499);
-            this.Controls.Add(this.skipButton);
-            this.Controls.Add(this.proceedButton);
-            this.Controls.Add(this.proceedLabel);
-            this.Controls.Add(this.nameLabel);
-            this.Controls.Add(this.charPictureBox);
             this.Controls.Add(this.optionButton2);
             this.Controls.Add(this.optionButton1);
+            this.Controls.Add(this.proceedLabel);
+            this.Controls.Add(this.skipButton);
+            this.Controls.Add(this.proceedButton);
+            this.Controls.Add(this.nameLabel);
+            this.Controls.Add(this.charPictureBox);
             this.Controls.Add(this.textLabel);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.startButton);
