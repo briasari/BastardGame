@@ -494,5 +494,71 @@
   <ItemGroup>
     <None Include="Resources\chap2 30.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 31.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 32.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 33.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 34.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 35.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 36.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 37.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 38.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 39.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 40.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 41.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 42.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 43.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 44.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 45.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 46.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 47.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 48.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 49.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 50.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 51.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 52.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
