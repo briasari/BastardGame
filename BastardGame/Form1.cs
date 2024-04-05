@@ -84,6 +84,14 @@ namespace BastardGame
                 page = 24;
                 DisplayPageMain();
             }
+            else if (page == 27)
+            {
+                optionButton1.Visible = false;
+                optionButton2.Visible = false;
+                Refresh();
+                page = 28;
+                DisplayPageMain();
+            }
 
             
         }
@@ -97,16 +105,25 @@ namespace BastardGame
                 page = 14;
                 DisplayPageMain();
             }
-            else if (page == 23) ;
+            else if (page == 23)
             {
                 optionButton2.Text = "YES";
                 optionButton2.ForeColor = Color.Red;
-               
+
                 Refresh();
 
                 Thread.Sleep(2500);
 
                 page = 24;
+                DisplayPageMain();
+            }
+            else if (page == 27)
+            {
+
+                optionButton1.Visible = false;
+                optionButton2.Visible = false;
+                Refresh();
+                page = 29;
                 DisplayPageMain();
             }
 
@@ -2634,6 +2651,174 @@ namespace BastardGame
                     }
                     Thread.Sleep(1250);
 
+                    pictureBox.BackgroundImage = Properties.Resources.chap2_54;
+                    nameLabel.Text = "DAD";
+                    Refresh();
+
+                    //started adding extra letters in alphabetical order instead of spelling out numbers to save time
+                    textLabel.Text = "";
+                    string text27a = ".......... THAT'S WHAT I THOUGHT.";
+                    foreach (char c in text27a)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+                    Thread.Sleep(1250);
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap2_55;
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text27ab = "WELL... ANYWAY, IS THERE ANYONE ON YOUR MIND NOWADAYS?";
+                    foreach (char c in text27ab)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+                    Thread.Sleep(1250);
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap2_56;
+                    nameLabel.Text = "JIN SEON";
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text27aB = "....... NO...";
+                    foreach (char c in text27aB)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+                    Thread.Sleep(1250);
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap2_57;
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text27abC = "THERE MUST BE SOMEONE. COME ON, BE HONEST.";
+                    foreach (char c in text27abC)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+                    Thread.Sleep(1250);
+
+                    optionButton1.Visible = true;
+                    optionButton2.Visible = true;
+                    optionButton1.Text = "TELL HIM ABOUT THE BULLIES";
+                    optionButton2.Text = "THERE'S NO ONE";
+                    optionButton2.ForeColor = Color.Black;
+
+                    break;
+
+                case 28:
+
+                    proceedLabel.Visible = false;
+                    nameLabel.Text = "JIN SEON";
+                    pictureBox.BackgroundImage = Properties.Resources.chap2_58;
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text28 = "WELL, IF I HAD TO PICK SOMEONE... THERE'S THIS GUY NAMED MANNY KIM FROM MY CLASS...";
+                    foreach (char c in text28)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+                    Thread.Sleep(1250);
+
+                    nameLabel.Visible = false;
+                    pictureBox.BackgroundImage = Properties.Resources.chap2_59;
+                    Refresh();
+
+                    Thread.Sleep(1250);
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap2_60;
+                    Refresh();
+
+                    Thread.Sleep(1250);
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap2_61;
+                    Refresh();
+
+                    Thread.Sleep(1250);
+
+                    pictureBox.BackgroundImage = Properties.Resources.chap2_62;
+                    nameLabel.Visible = true;
+                    nameLabel.Text = "DAD";
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text28a = "NOT A GUY. NAME ME A GIRL.";
+                    foreach (char c in text28a)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+                    Thread.Sleep(750);
+
+                    proceedLabel.Visible = true;
+
+                    Refresh();
+
+                    break;
+
+                case 29:
+
+                    proceedLabel.Visible = false;
+                    nameLabel.Text = "JIN SEON";
+                    pictureBox.BackgroundImage = Properties.Resources.chap2_63;
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text29 = "........";
+                    foreach (char c in text29)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+                    Thread.Sleep(1250);
+
+                    nameLabel.Visible = false;
+                    pictureBox.BackgroundImage = Properties.Resources.chap2_64;
+                    Refresh();
+
+                    Thread.Sleep(1250);
+
+                    nameLabel.Visible = true;
+                    pictureBox.BackgroundImage = Properties.Resources.chap2_65;
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text29a = "T-THERE AREN'T ANY...";
+                    foreach (char c in text29a)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+                    Thread.Sleep(1250);
+
+                    nameLabel.Visible = true;
+                    pictureBox.BackgroundImage = Properties.Resources.chap2_66;
+                    Refresh();
+
+                    textLabel.Text = "";
+                    string text29ab = "IS THAT SO? WELL THEN...";
+                    foreach (char c in text29ab)
+                    {
+                        textLabel.Text += c;
+                        Thread.Sleep(35);
+                        textLabel.Refresh();
+                    }
+                    Thread.Sleep(1250);
+
                     break;
             }
         }
@@ -2651,7 +2836,7 @@ namespace BastardGame
 
         private void skipButton_Click(object sender, EventArgs e)
         {
-            page = 23;
+            page = 25;
             DisplayPageMain();
         }
     }

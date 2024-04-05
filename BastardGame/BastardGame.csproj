@@ -560,5 +560,47 @@
   <ItemGroup>
     <None Include="Resources\chap2 52.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 53.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 54.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 55.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 56.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 57.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 58.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 59.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 60.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 61.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 62.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 63.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 64.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 65.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chap2 66.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
