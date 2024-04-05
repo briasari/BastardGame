@@ -148,12 +148,14 @@
             // 
             // proceedButton
             // 
-            this.proceedButton.Location = new System.Drawing.Point(480, 71);
+            this.proceedButton.AutoSize = true;
+            this.proceedButton.Location = new System.Drawing.Point(176, 406);
             this.proceedButton.Name = "proceedButton";
-            this.proceedButton.Size = new System.Drawing.Size(75, 23);
+            this.proceedButton.Size = new System.Drawing.Size(166, 68);
             this.proceedButton.TabIndex = 9;
             this.proceedButton.Text = "proceed";
             this.proceedButton.UseVisualStyleBackColor = true;
+            this.proceedButton.Visible = false;
             this.proceedButton.Click += new System.EventHandler(this.proceedButton_Click);
             // 
             // skipButton
@@ -186,6 +188,7 @@
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.pictureBox);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Bastard";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
